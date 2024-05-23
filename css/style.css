@@ -29,7 +29,7 @@
 }
 
 body {
-  min-height: 2000px;
+ /* min-height: 2000px;*/
 }
 
 .clearfix::after {
@@ -187,6 +187,10 @@ a {
   background-color: #fff;
 }
 
+.flights__top {
+  margin-bottom: 50px;
+}
+
 .flights__heading {
   float: left;
   font-size: 30px;
@@ -222,4 +226,59 @@ a {
 .flights__list-link:hover {
   color: #ff4b64;
   font-weight: 700;
+}
+
+.flights__table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.flights-table__header {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.flights-table__heading {
+  padding-bottom: 35px;
+}
+
+.flight-table__row  {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.flight-table__cell {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.flight-table__span {
+  display: block;
+  text-align: center;
+  color: #818181 ;
+}
+
+.flight-table__icon  {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+
+.flight-table__text {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.flight-table__button {
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  border-color: #ff4b64;
+  background-color: #ff4b64;
+  color: #fff;
+  cursor: pointer;
+  transition: bacground-color 0.15s ease-in-out, border 0.15s ease-in-out;
+}
+
+.flight-table__button:hover {
+  background-color: #000;
+  border: #000;
 }
