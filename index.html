@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paris</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container clearfix">
+      <div class="header__left">
+        <a href="#" class="header__logo">
+          Travel Cream
+        </a>
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__item">
+              <a href="#" class="header__link">
+                Flights
+              </a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">
+                Hotels
+              </a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">
+                Trips
+              </a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">
+                Activity
+              </a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">
+                Deals
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header__right">
+        <button class="header__login">
+          Login
+        </button>
+      </div>
+    </div><!--/container-->
+  </header>
+  <main class="main">
+    <section class="first">
+      <div class="container">
+        <h1 class="first__heading">
+          Do you want to visit Paris?
+        </h1>
+        <p class="first__descr">
+          Why not
+        </p>
+        <form method="post" action="https://jsonplaceholder.typicode.com/posts" class="first__form">
+          <input class="form-input" type="text" name="where" placeholder="Where are you leaving from?" id="where">
+          <input class="form-input"  type="text" name="whereto" placeholder="Where do you want to go?" id="whereto">
+          <input class="form-input small-input"  type="date" placeholder="Date" name="date" id="date">
+          <button class="form-button" type="submit">Search</button>
+        </form>
+      </div><!--/container-->
+    </section>
+  </main>
+</body>
+
+</html>
