@@ -179,3 +179,47 @@ a {
 .form-button:hover  {
   background-color: #000;
 }
+
+/*-----------------------Flights-----------------------*/
+
+.flights  {
+  padding-top: 102px;
+  background-color: #fff;
+}
+
+.flights__heading {
+  float: left;
+  font-size: 30px;
+  color: #484848;
+}
+
+.flights__links {
+  float: right;
+}
+
+.flights__list  {
+  list-style-type: none;
+}
+
+.flights__list-item {
+  display: inline-block;
+}
+
+
+.flights__list-item:not(:last-child)  {
+  margin-right: 25px;
+}
+
+
+.flights__list-link {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #484848;
+  transition: color 0.15s ease-in-out, font-weight 0.15s ease-in-out;
+}
+
+.flights__list-link:hover {
+  color: #ff4b64;
+  font-weight: 700;
+}
