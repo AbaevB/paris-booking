@@ -187,35 +187,35 @@ a {
   background-color: #fff;
 }
 
-.flights__top {
+.section-top {
   margin-bottom: 50px;
 }
 
-.flights__heading {
+.section-heading {
   float: left;
   font-size: 30px;
   color: #484848;
 }
 
-.flights__links {
+.section-links  {
   float: right;
 }
 
-.flights__list  {
+.section__list  {
   list-style-type: none;
 }
 
-.flights__list-item {
+.section-list__item {
   display: inline-block;
 }
 
 
-.flights__list-item:not(:last-child)  {
+.section-list__item:not(:last-child)  {
   margin-right: 25px;
 }
 
 
-.flights__list-link {
+.section-list__link{
   font-size: 16px;
   font-weight: 400;
   line-height: 32px;
@@ -223,7 +223,7 @@ a {
   transition: color 0.15s ease-in-out, font-weight 0.15s ease-in-out;
 }
 
-.flights__list-link:hover {
+.section-list__link:hover {
   color: #ff4b64;
   font-weight: 700;
 }
@@ -252,7 +252,9 @@ a {
 
 .flight-table__span {
   display: block;
+  padding-top: 10px;
   text-align: center;
+  font-weight: 400;
   color: #818181 ;
 }
 
@@ -265,9 +267,10 @@ a {
 .flight-table__text {
   display: inline-block;
   vertical-align: middle;
+  font-weight: 500;
 }
 
-.flight-table__button {
+.main-btn {
   width: 120px;
   height: 40px;
   border-radius: 5px;
@@ -279,7 +282,11 @@ a {
   transition: bacground-color 0.15s ease-in-out, color 0.15s ease-out;
 }
 
-.flight-table__button:hover {
+.main-btn::before {
+  content: "$ " ;
+}
+
+.main-btn:hover {
   background-color: #ff4b64;
   color: #fff;
 }
@@ -297,9 +304,67 @@ a {
   transition: color 0.15s ease-in-out, font-weight 0.15s ease-in-out;
 }
 
+.section-body {
+  width: 100%;
+  font-size: 0;
+}
+
 .section__link:hover  {
   color: #ff4b64;
   font-weight: 700;
 }
+
+
+/*-----------------------Hotels-----------------------*/
+
+.hotels {
+  padding-top: 102px;
+  background-color: #fff;
+}
+
+.hotels-card  {
+  width: 31.5%;
+  display: inline-block;
+  margin-bottom: 27px;
+  border: 1px solid #e6e6e6;
+}
+
+.hotels-card:not(:nth-child(3n))  {
+  margin-right: 2.75%;
+}
+
+.hotels-card__figure  {
+  height: 200px;
+}
+
+.hotels-card__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hotels-card__content {
+  padding: 25px 14px;
+}
+
+.hotels-card__title {
+  margin-bottom: 20px;
+}
+
+.hotels-card__props {
+  width: 100%;
+  margin-bottom: 25px;
+  color: #9a9a9a;
+}
+
+.hotels-card__left  {
+  float: left;
+}
+
+.hotels-card__right {
+  float: right;
+}
+
+
 
 
