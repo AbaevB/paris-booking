@@ -19,17 +19,22 @@
         <nav class="header__nav">
           <ul class="header__list">
             <li class="header__item">
-              <a href="#" class="header__link">
+              <a href="#flights" class="header__link">
                 Flights
               </a>
             </li>
             <li class="header__item">
-              <a href="#" class="header__link">
+              <a href="#hotels" class="header__link">
                 Hotels
               </a>
             </li>
             <li class="header__item">
-              <a href="#" class="header__link">
+              <a href="#attractions" class="header__link">
+                Attractions
+              </a>
+            </li>
+            <li class="header__item">
+              <a href="#trips" class="header__link">
                 Trips
               </a>
             </li>
@@ -70,31 +75,31 @@
         </form>
       </div><!--/container-->
     </section>
-    <section class="flights">
+    <section id="flights" class="flights">
       <div class="container">
-        <div class="flights__top clearfix">
+        <div class="section-top clearfix">
           <h2 class="section-heading flights__heading">
             Flights
           </h2>
-          <div class="flights__links">
-            <ul class="flights__list">
-              <li class="flights__list-item">
-                <a href="#" class="flights__list-link">
+          <div class="section-links flight__links">
+            <ul class="section-list">
+              <li class="section-list__item">
+                <a href="#" class="section-list__link">
                   Non stop
                 </a>
               </li>
-              <li class="flights__list-item">
-                <a href="#" class="flights__list-link">
+              <li class="section-list__item">
+                <a href="#" class="section-list__link">
                   Best Price
                 </a>
               </li>
-              <li class="flights__list-item">
-                <a href="#" class="flights__list-link">
+              <li class="section-list__item">
+                <a href="#" class="section-list__link">
                   Airline
                 </a>
               </li>
-              <li class="flights__list-item">
-                <a href="#" class="flights__list-link">
+              <li class="section-list__item">
+                <a href="#" class="section-list__link">
                   Schedule
                 </a>
               </li>
@@ -165,8 +170,8 @@
 
                 </td>
                 <td class="flight-table__cell">
-                  <button class="flight-table__button">
-                    $ 870
+                  <button class="main-btn">
+                     870
                   </button>
 
                 </td>
@@ -222,8 +227,8 @@
 
                 </td>
                 <td class="flight-table__cell">
-                  <button class="flight-table__button">
-                    $ 1023
+                  <button class="main-btn">
+                     1023
                   </button>
 
                 </td>
@@ -279,8 +284,8 @@
 
                 </td>
                 <td class="flight-table__cell">
-                  <button class="flight-table__button">
-                    $ 980
+                  <button class="main-btn">
+                     980
                   </button>
 
                 </td>
@@ -336,8 +341,8 @@
 
                 </td>
                 <td class="flight-table__cell">
-                  <button class="flight-table__button">
-                    $ 1450
+                  <button class="main-btn">
+                     1450
                   </button>
 
                 </td>
@@ -393,8 +398,8 @@
 
                 </td>
                 <td class="flight-table__cell">
-                  <button class="flight-table__button">
-                    $ 930
+                  <button class="main-btn">
+                     930
                   </button>
 
                 </td>
@@ -409,9 +414,175 @@
               See all flights
             </a>
           </div>
-        </div>
+        </div><!--/section__bottom-->
       </div><!--/container-->
     </section>
+    <section id="hotels" class="hotels">
+      <div class="container">
+        <div class="section-top hotels__top clearfix">
+          <h2 class="section-heading hotels__heading">
+            Hotels
+          </h2>
+          <div class="section-links">
+            <ul class="section-list">
+              <li class="section-list__item">
+                <a href="#" class="section-list__link">
+                  Best Price
+                </a>
+              </li>
+              <li class="section-list__item">
+                <a href="#" class="section-list__link">
+                  Distance
+                </a>
+              </li>
+            </ul>
+          </div><!--/section-links-->
+        </div><!--/section-top-->
+        <div class="section-body hotels__body clearfix">
+          <div class="hotels-card hotels__card">
+            <figure class="hotels-card__figure">
+              <img src="img/hotel-1.jpg" alt="hotel-1" class="hotels-card__img">
+            </figure>
+            <div class="hotels-card__content">
+              <h3 class="hotels-card__title">
+                Hotel Paris Ouest Acheres
+              </h3>
+              <div class="hotels-card__props clearfix">
+                <div class="hotels-card__left">
+                  12,3 km
+                </div><!--/hotels-card__left-->
+                <div class="hotels-card__right">
+                  Free Wi-Fi
+                </div><!--/hotels-card__right-->
+              </div><!--/hotels-card__props-->
+              <button class="hotels-card__btn main-btn">
+                30
+
+              </button>
+            </div><!--/hotels-card__content-->
+
+          </div><!--/hotels-card-->
+          <div class="hotels-card hotels__card">
+            <figure class="hotels-card__figure">
+              <img src="img/hotel-2.jpg" alt="hotel-2" class="hotels-card__img">
+            </figure>
+            <div class="hotels-card__content">
+              <h3 class="hotels-card__title">
+                Hotel Eiffel Seine
+              </h3>
+              <div class="hotels-card__props clearfix">
+                <div class="hotels-card__left">
+                  17,6 km
+                </div><!--/hotels-card__left-->
+                <div class="hotels-card__right">
+                  Free Wi-Fi
+                </div><!--/hotels-card__right-->
+              </div><!--/hotels-card__props-->
+              <button class="hotels-card__btn main-btn">
+                42
+
+              </button>
+            </div><!--/hotels-card__content-->
+          </div><!--/hotels-card-->
+          <div class="hotels-card hotels__card">
+            <figure class="hotels-card__figure">
+              <img src="img/hotel-3.jpg" alt="hotel-3" class="hotels-card__img">
+            </figure>
+            <div class="hotels-card__content">
+              <h3 class="hotels-card__title">
+                Hotel Paris Ouest Acheres
+              </h3>
+              <div class="hotels-card__props clearfix">
+                <div class="hotels-card__left">
+                  12,3 km
+                </div><!--/hotels-card__left-->
+                <div class="hotels-card__right">
+                  Free Wi-Fi
+                </div><!--/hotels-card__right-->
+              </div><!--/hotels-card__props-->
+              <button class="hotels-card__btn main-btn">
+                30
+
+              </button>
+            </div><!--/hotels-card__content-->
+          </div><!--/hotels-card-->
+          <div class="hotels-card hotels__card">
+            <figure class="hotels-card__figure">
+              <img src="img/hotel-4.jpg" alt="hotel-4" class="hotels-card__img">
+            </figure>
+            <div class="hotels-card__content">
+              <h3 class="hotels-card__title">
+                Hotel Paris Ouest Acheres
+              </h3>
+              <div class="hotels-card__props clearfix">
+                <div class="hotels-card__left">
+                  12,3 km
+                </div><!--/hotels-card__left-->
+                <div class="hotels-card__right">
+                  Free Wi-Fi
+                </div><!--/hotels-card__right-->
+              </div><!--/hotels-card__props-->
+              <button class="hotels-card__btn main-btn">
+                30
+
+              </button>
+            </div><!--/hotels-card__content-->
+          </div><!--/hotels-card-->
+          <div class="hotels-card hotels__card">
+            <figure class="hotels-card__figure">
+              <img src="img/hotel-5.jpg" alt="hotel-5" class="hotels-card__img">
+            </figure>
+            <div class="hotels-card__content">
+              <h3 class="hotels-card__title">
+                Hotel Paris Ouest Acheres
+              </h3>
+              <div class="hotels-card__props clearfix">
+                <div class="hotels-card__left">
+                  12,3 km
+                </div><!--/hotels-card__left-->
+                <div class="hotels-card__right">
+                  Free Wi-Fi
+                </div><!--/hotels-card__right-->
+              </div><!--/hotels-card__props-->
+              <button class="hotels-card__btn main-btn">
+                30
+
+              </button>
+            </div><!--/hotels-card__content-->
+          </div><!--/hotels-card-->
+          <div class="hotels-card hotels__card">
+            <figure class="hotels-card__figure">
+              <img src="img/hotel-6.jpg" alt="hotel-6" class="hotels-card__img">
+            </figure>
+            <div class="hotels-card__content">
+              <h3 class="hotels-card__title">
+                Hotel Paris Ouest Acheres
+              </h3>
+              <div class="hotels-card__props clearfix">
+                <div class="hotels-card__left">
+                  12,3 km
+                </div><!--/hotels-card__left-->
+                <div class="hotels-card__right">
+                  Free Wi-Fi
+                </div><!--/hotels-card__right-->
+              </div><!--/hotels-card__props-->
+              <button class="hotels-card__btn main-btn">
+                30
+
+              </button>
+            </div><!--/hotels-card__content-->
+          </div><!--/hotels-card-->
+        </div><!--/hotels__body-->
+        <div class="section__bottom">
+          <div class="bottom-right">
+            <a href="#" class="section__link">
+              See all hotels
+            </a>
+          </div>
+        </div><!--/section__bottom-->
+      </div><!--/container-->
+    </section>
+
   </main>
 </body>
 
