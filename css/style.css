@@ -29,7 +29,7 @@
 }
 
 body {
-  min-height: 2000px;
+ /* min-height: 2000px;*/
 }
 
 .clearfix::after {
@@ -179,3 +179,127 @@ a {
 .form-button:hover  {
   background-color: #000;
 }
+
+/*-----------------------Flights-----------------------*/
+
+.flights  {
+  padding-top: 102px;
+  background-color: #fff;
+}
+
+.flights__top {
+  margin-bottom: 50px;
+}
+
+.flights__heading {
+  float: left;
+  font-size: 30px;
+  color: #484848;
+}
+
+.flights__links {
+  float: right;
+}
+
+.flights__list  {
+  list-style-type: none;
+}
+
+.flights__list-item {
+  display: inline-block;
+}
+
+
+.flights__list-item:not(:last-child)  {
+  margin-right: 25px;
+}
+
+
+.flights__list-link {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #484848;
+  transition: color 0.15s ease-in-out, font-weight 0.15s ease-in-out;
+}
+
+.flights__list-link:hover {
+  color: #ff4b64;
+  font-weight: 700;
+}
+
+.flights__table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.flights-table__header {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.flights-table__heading {
+  padding-bottom: 35px;
+}
+
+.flight-table__row  {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.flight-table__cell {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.flight-table__span {
+  display: block;
+  text-align: center;
+  color: #818181 ;
+}
+
+.flight-table__icon  {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+
+.flight-table__text {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.flight-table__button {
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  border-color: #ff4b64;
+  background-color: transparent;
+  font-weight: 600;
+  color: #ff4b64;
+  cursor: pointer;
+  transition: bacground-color 0.15s ease-in-out, color 0.15s ease-out;
+}
+
+.flight-table__button:hover {
+  background-color: #ff4b64;
+  color: #fff;
+}
+
+.bottom-right  {
+  float: right;
+  padding: 50px 0;
+}
+
+.section__link  {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #484848;
+  transition: color 0.15s ease-in-out, font-weight 0.15s ease-in-out;
+}
+
+.section__link:hover  {
+  color: #ff4b64;
+  font-weight: 700;
+}
+
+
